@@ -5,5 +5,6 @@
 	$jk = $_POST['jk'];
 	$alamat = $_POST['alamat'];
 	$agama = $_POST['agama'];
-	$hasil = $db->query("insert into peserta (nama_peserta, tgl_lahir, jk,alamat, agama) values ('$nama_peserta', '$tgl_lahir', '$jk', '$alamat', '$agama')");
+	$hasil = $koneksi->query("INSERT INTO dts_2020 VALUES ('', '$nama_peserta', '$tgl_lahir', '$jk', '$alamat', '$agama')");
 	header('location:peserta.php');
+	?>

@@ -1,6 +1,6 @@
 <?php
 include 'koneksi.php';
-$peserta = $koneksi->query("SELECT * FROM peserta");
+$peserta = $koneksi->query("SELECT * FROM dts_2020");
 ?>
 <!DOCTYPE html>
 <html lang="en">

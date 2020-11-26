@@ -1,13 +1,12 @@
 <?php
 include 'koneksi.php';
-$peserta = $koneksi->query("SELECT * FROM peserta");
+$peserta = $koneksi->query("SELECT * FROM dts_2020");
 ?>
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<!-- link untuk loading bootstrap.css -->
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	<title>Pendaftaran Siswa Baru</title>
 </head>
@@ -40,7 +39,7 @@ $peserta = $koneksi->query("SELECT * FROM peserta");
 										</thead>
 										<tbody>
 											<?php $no = 1; ?>
-											<?php foreach ($sql as $row): ?>
+											<?php foreach ($peserta as $row): ?>
 											<tr>
 											<td class="text-center"><?php echo $no++ ?></td>
 											<td><?php echo $row['nama_peserta'] ?></td>
@@ -61,7 +60,6 @@ $peserta = $koneksi->query("SELECT * FROM peserta");
 			</div>
 		</div>
 	</div>
-	<!-- script untuk loading jquery.min.js -->
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/bootstrap.min.js"></script>
 </body>
