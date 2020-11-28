@@ -1,0 +1,42 @@
+body {
+	background: whitesmoke;
+}
+
+.container {
+	max-width: 1280px;
+	/* max lebar objek */
+	margin: 0 auto;
+	/* rata tengah objek */
+	background: white;
+	/* later belakang putih */
+	padding: 5px;
+	/* jarak box dan konten 5px */
+}
+
+.header {
+	background: teal;
+	height: 100px;
+}
+
+.png {
+	width: 4%;
+	margin: 20px;
+
+}
+
+.menu ul li ul {
+    display: none;
+    position: relative;
+    top: 0px; 
+
+.content {
+	background: whitesmoke;
+	height: 500px;
+}
+
+.footer {
+	background: teal;
+	height: 200px;
+
+}
+

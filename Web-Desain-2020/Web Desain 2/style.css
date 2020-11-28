@@ -1,0 +1,105 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: whitesmoke;
+}
+
+#container {
+	max-width: 1080px;
+	/* max lebar objek */
+	margin: 0 auto;
+	/* rata tengah objek */
+	background: whitesmoke;
+	/* later belakang putih */
+	padding: 5px;
+	/* jarak box dan konten 5px */
+}
+
+#colom1 {
+	width: 100%;
+	font-family: verdana;
+	background: whitesmoke;
+	height: 50px;
+	text-align: center;
+	font-size: 20px;
+	color: darkorange;
+	line-height: 50px;
+	text-transform: uppercase;
+
+}
+
+#colom2{
+	width: 100%;
+	background: darkorange;
+	height: 250px;
+	text-align: center;
+	color: white;
+}
+
+#colom3{
+	width: 100%;
+	height: 200px;
+	background: whitesmoke;
+	text-align: justify;
+
+}
+
+.paragraf{
+	padding-left: 70px;
+	padding-right: 70px;
+	padding-top: 20px; 
+}
+
+.gambar{
+	width: 10%;
+	text-align: center;
+	border-radius: 100%;
+}
+
+
+h2{
+	color: darkorange;
+	background: whitesmoke;
+}
+
+#atas{
+	text-align: center;
+	float: left;
+	height: 400px;
+	width: 50%;
+	background: whitesmoke;
+}
+
+.png1{
+	width: 20%;
+}
+
+.png2{
+	width: 20%;
+}
+
+#bawah{
+	text-align: center;
+	float: left;
+	height: 400px;
+	width: 50%;
+	background: whitesmoke;
+}
+
+.png3{
+	width: 20%;
+}
+
+.png4{
+	width: 20%;
+}
+
+#footer{
+	background: darkorange;
+	text-align: center;
+	color: white;
+}
+

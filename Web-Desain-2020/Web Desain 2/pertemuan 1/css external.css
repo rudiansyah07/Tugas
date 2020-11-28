@@ -1,0 +1,15 @@
+
+body{
+	background-image: url(images.jpg); /*menambahkan bakground foto*/
+	background-size: 100%;
+}
+h1{
+	font-family: Verdana, Geneva, Tahoma, sans-serif; /*merubah jenis font*/
+	color: lightblue; /*merubah warna font*/
+	text-align: center; /*membuat rata tengah*/
+	font-size: 36pt; /*merubah ukuran font*/
+}
+p{
+	color: #FFFFFF;
+	text-align: justify;
+}

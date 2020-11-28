@@ -1,0 +1,159 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: whitesmoke;
+}
+
+#container {
+	max-width: 1280px;
+	/* max lebar objek */
+	margin: 0 auto;
+	/* rata tengah objek */
+	background: white;
+	/* later belakang putih */
+	padding: 5px;
+	/* jarak box dan konten 5px */
+}
+
+#header {
+	width: 100%;
+	font-family: verdana;
+	background: red;
+	height: 300px;
+	text-align: center;
+	font-size: 60px;
+	color: white;
+	line-height: 300px;
+	text-transform: uppercase;
+
+}
+
+#left{
+	width: 30%;
+	background-color: red;
+	color: white;
+	height: 400px;
+	float: left;
+	padding: 0.5%;
+	margin: 2px;
+}
+
+
+#center{
+	width: 36%;
+	background-color: green;
+	color: white;
+	height: 400px;
+	float: left;
+	padding: 0.5%;
+	margin: 2px;
+}
+
+
+#right{
+	width: 30%;
+	background-color: white;
+	color: white;
+	height: 400px;
+	float: right;
+	padding: 0.5%;
+	margin: 2px;
+}
+
+
+#right1{
+	width: 100%;
+	background-color: red;
+	color: white;
+	height: 200px;
+	margin: 2px;
+}
+
+#right2{
+	width: 100%;
+	background-color: blue;
+	color: white;
+	height: 200px;
+	margin: 2px;
+}
+
+#kosong {
+	clear: both;
+}
+
+
+#footer {
+	width: 100%;
+	font-family: verdana;
+	background: white;
+	line-height: 80px;
+	height: 150px;
+
+}
+
+#footer1{
+	width: 49%;
+	font-family: verdana;
+	background: red;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	line-height: 80px;
+	text-transform: uppercase;
+	height: 150px;
+	float: left;
+	margin: 3px;
+}
+
+#footer2{
+	width: 49%;
+	font-family: verdana;
+	background: red;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	line-height: 80px;
+	text-transform: uppercase;
+	height: 150px;
+	float: right;
+	margin: 3px;
+}
+
+
+.gambar {
+	width: 50%;
+}
+.gambar:hover{
+	filter: blur(8px);
+	-webkit-filter: blur(3px);
+	transition: width 2s;
+	width: 60%;
+}
+
+/*SETINGAN RESPONSIVE LAYOUT*/
+
+/* untuk Ukuran 1080 kebawah - versi tablet */
+
+@media screen and (max-width: 1080px){
+	
+}
+
+/* untuk Ukuran 780 kebawah - versi Smartphone */
+
+@media screen and (max-width: 780px) {
+	#left,
+	#center,
+	#right{
+		float: none;
+		width: 100%;
+	}
+
+	#header{
+		height: 400px;
+		line-height: 400px;
+	}
+	
+}
